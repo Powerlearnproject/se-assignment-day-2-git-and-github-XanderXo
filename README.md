@@ -2,6 +2,23 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18821014&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+Fundamental Concepts of Version Control A version control system records changes to a file or set of files over time. When you have a file that evolves in a linear way (that is, the kinds of changes it could undergo can be thought of as a kind of primitive "mutation"), keeping track of which version is the latest and which version should be used when to get the maximum work done is often a pretty big task. There are two main kinds of version control: 1. Local version control systems 2. Centralized version control systems 
+1. Local Version Control – Keeps many versions of files in one place on the computer, mostly by doing manual saves of different stages. Like the Save As command in a word processor, but used more often.
+2. Centralized Version Control (CVCS) – Users access the project history from a single server. The project history is stored on that server. Users make their changes to copies of the project. When done, they send their changes back to the server. The server reconciles the users' versions with the stored project history, and with each other. If all goes well, the server adds the changes to the project's history. If something hasn't gone well, the server tries very hard to let the users know it.
+3. Distributed Version Control Systems (DVCSs) are resilient to failures because they copy the project history to every user. Examples are Git and Mercurial.
+
+GitHub is Popular for Version Control GitHub is an extensively utilized platform that is centered on Git, a decentralized control system for versions. It has in store for its users: Teams can collaborate by pushing and pulling changes when using remote repository hosting.
+Branch and Merge– Lets developers work on features in isolation, merging them when ready. 
+Requests for Pulls and Reviews of Code – Helps obtain feedback and enhances the excellence of the code. 
+Backup and Security – Ensures safe storage of the code with controls for access.
+CI/CD Integration – Validates that the service supports continuous integration and deployment for automation.
+**How Version Control Helps Maintain Project Integrity**
+Tracks Changes– Keeps up into a past of the changes, lessening unplanned data failure.
+Prevents Conflicts– It helps manage a collection of simultaneous changes. These changes come from many contributors.
+Facilitates Collaboration– Lets developers work on features without overwriting each other's work.
+Bug Fixing & Rollbacks– Permits rapid location and also undoing of troublesome upgrades.
+Accountability– Logs who made many changes, improving overall transparency in development.
+
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
