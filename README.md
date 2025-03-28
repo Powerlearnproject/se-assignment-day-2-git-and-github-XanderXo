@@ -23,7 +23,7 @@ CI/CD Integration – Validates that the service supports continuous integration
 
 Creating a new repository on GitHub is a straightforward process. Below are the key steps and important decisions involved:  
 **Step 1: Log in to GitHub**  
-- Go to [GitHub](https://github.com/) and log in with your credentials.  
+- Go to GitHub and log in with your credentials.  
 **Step 2: Create a New Repository**  
 1. Click on your profile icon (top-right corner) and select **"Your repositories"**.  
 2. Click the green **"New"** button to start creating a new repository.  
